@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.exrtra-sec {
+    background: #103D36;
+    text-align: center;
+    color: white;
+    padding: 0.5vh;
+    font-size: 10px;
+}
+.btn img{
+    height: 2vh;
+    width: 1vw;
+    margin-right: 5px;
+}
+.cart-btn{
+    background: white;
+}
+.header{
+    background: rgb(0, 0, 0);
+    padding: 2vh;
+    
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background: #ffffff;
+    height: 8vh;
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;   /* pushes half outside */
+}
+.logo img{
+    height: 12vh;
+}
+.btn{
+    background: #103D36;
+    border: none;
+}
+.cart img{
+    height: 2vh;
+    width: 1vw;
+}
+/* background */
+.bg img{
+    width: 100%;
+}
+/* navbar */
+.menu-wrapper{
+display:flex;
+align-items:center;
+background:#103D36;
+padding:10px;
+
+position:relative;
+font-size: 30px;
+font-weight: bold;
+}
+
+.menu-scroll{
+gap: 2vw;
+display:flex;
+overflow-x:auto;
+scroll-behavior:smooth;
+white-space:nowrap;
+flex:1;
+}
+
+.menu-scroll a{
+color:white;
+text-decoration:none;
+padding:10px 18px;
+font-size:15px;
+}
+.menu-scroll a:hover{
+    transition: all ease 0.5s;
+    background:#E9C690;
+    color: #103D36;
+    border-radius: 5px;
+}
+.menu-scroll a.active{
+background:#e6c892;
+color:#000;
+border-radius:6px;
+}
+
+.menu-scroll::-webkit-scrollbar{
+display:none;
+}
+
+.nav-arrow{
+background:#0e4a3a;
+color:white;
+border:none;
+font-size:20px;
+cursor:pointer;
+padding:5px 10px;
+}
+
+.sticky-menu{
+position:fixed;
+top:0;
+width:100%;
+z-index:999;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+/* main */
+.main{
+    background: #FFFADC;
+}
+.search-container{
+    width:60%;
+    margin:30px auto;
+}
+.search-bar{
+    background: #FFFADC;
+}
+#searchInput{
+    width:100%;
+    padding:12px 20px;
+    border-radius:30px;
+    border:1px solid #103D36;
+    font-size:16px;
+    outline:none;
+}
+/* sale-bar */
+.discount-banner{
+    width:60%;
+    margin:30px auto;
+    background:#f2f2f2;
+    padding:20px;
+    border-radius:8px;
+    /* display:flex; */
+    align-items:center;
+    gap:15px;
+}
+
+.discount-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.flat{
+    font-size:20px;
+}
+
+.discount-circle{
+    background:#ffeb3b;
+    color:#000;
+    font-size:26px;
+    font-weight:bold;
+    width:55px;
+    height:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+}
+
+.percent{
+    font-size:20px;
+}
+
+.discount-text{
+    color:#666;
+    font-size:14px;
+}
+/* poppuler items */
+.famous-items{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:4vw;
+}
+.food-card{
+    position:relative;
+    width: 13vw;
+    border-radius:15px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.food-card img{
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+}
+
+.food-card:hover{
+    transform:scale(1.03);
+}
+
+.food-title{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:white;
+    font-weight:bold;
+    background:rgba(0,0,0,0.5);
+    padding:5px 10px;
+    border-radius:8px;
+    font-size:14px;
+}
+
+.food-price{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+    background:white;
+    padding:4px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:500;
+}
+
+
+.banner img{
+    height: 20vh;
+    width: 60vw;
+    border-radius: 20px;
+}
+.banner{
+    text-align: center;
+    margin-top: 3vh;
+}
+/* apptzr */
+.appetizer-items{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 13vw 13vw 13vw 13vw;
+    justify-content: center;
+    grid-row-gap: 5vh;
+    grid-column-gap: 3vw;
+    text-align: center;
+}
+.food-cards{
+    text-align: center;
+    height: 50vh;
+    width: 13vw;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(124, 124, 124);
+}
+.food-cards h6{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1vh;
+}
+.food-cards img{
+    background-size: cover;
+    width:13vw ;
+    height:25vh;
+}
+.apptzr-extra{
+    align-items: end;
+
+}
+.food-cards p{
+    font-size: 12px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;
+    font-weight: bold;
+}
+.apptzr-btn{
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    border-radius: 20px;
+    background: #103D36;
+}
+.apptzr-btn a{
+    color: white;
+    text-decoration: none;
+}
+.food-cards:hover{
+    transition: all ease 0.5s;
+    transform: scale(1.02);
+}
+
+/* salad bar */
+
+.salad{
+    text-align: center;
+}
+#salad-bar-banner{
+    height: 20vh;
+    width: 60vw;
+    border-radius: 20px;
+    margin-top: 3vh;
+}
+.salad-bar{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 13vw 13vw 13vw 13vw;
+    justify-content: center;
+    grid-column-gap: 2vw;
+    grid-row-gap: 5vh;
+    text-align: center;
+}
+.salad-bar-card{
+    text-align: center;
+    height: 50vh;
+    width: 13vw;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(124, 124, 124);
+}
+.salad-bar-card img{
+    background-size: cover;
+    width:12vw ;
+    height:25vh;
+}
+.salad-bar-card  h6{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1vh;
+}
+.salad-bar-card p{
+    font-size: 12px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* traditional */
+.traditional-food{
+    text-align: center;
+}
+#traditional-bar-banner{
+    height: 20vh;
+    width: 60vw;
+    border-radius: 20px;
+    margin-top: 3vh;
+}
+/* karhayi */
+.karhayi-food{
+    text-align: center;
+}
+/* loaciotn */
+.location{
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-top: 5vh;
+    background: #ffffff;
+    width: 100%;
+
+}
+/* footer */
+.footer-section{
+    background:#13171A;
+    padding:50px 0;
+    color:#ccc;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.social-icons a{
+    color:#fff;
+    margin:0 10px;
+    font-size:25px;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#cfcfcf;
+}
+
+.footer-links{
+    font-size:14px;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 5px;
+    
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+.divider{
+    margin:0 6px;
+    color:#aaa;
+}

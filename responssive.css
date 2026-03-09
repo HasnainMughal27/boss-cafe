@@ -1,0 +1,293 @@
+/* MOBILE */
+@media (max-width:480px){
+
+/* header */
+.logo img{
+    height:7vh;
+}
+
+/* search bar */
+.search-container{
+    width:95%;
+}
+
+/* menu */
+.menu-scroll a{
+    font-size:12px;
+    padding:6px 10px;
+}
+
+/* famous items */
+.famous-items{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    /* gap:20px; */
+    grid-column-gap: -1vw;
+}
+
+.food-card{
+    width:95%;
+    max-width:350px;
+}
+
+.food-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+/* banners */
+.banner img,
+#salad-bar-banner,
+#traditional-bar-banner{
+    width:95%;
+    height:auto;
+}
+
+/* appetizer grid */
+.appetizer-items{
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+/* other food sections */
+.salad-bar{
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+/* food cards */
+.food-cards{
+    width:95%;
+    max-width:320px;
+    margin:auto;
+}
+.food-cards{
+    width:100%;
+    height: 60vh;
+}
+
+.food-cards img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+/* buttons */
+.apptzr-btn{
+    width:120px;
+    height:38px;
+}
+
+/* location text */
+.location{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+}
+
+@media (max-width:576px){
+
+.logo img{
+    height:9vh;
+}
+
+.btn img{
+    width:4vw;
+    height:2vh;
+}
+
+.cart img{
+    width:4vw;
+}
+
+.search-container{
+    width:90%;
+}
+
+/* banner */
+.banner img,
+#salad-bar-banner,
+#traditional-bar-banner{
+    width:90%;
+    height:auto;
+}
+
+/* popular items */
+.famous-items{
+    flex-wrap: wrap;
+    align-items:center;
+    gap:20px;
+}
+
+.food-card{
+    width:90%;
+}
+
+.food-card img{
+    height:200px;
+}
+
+/* menu scroll */
+.menu-scroll a{
+    font-size:13px;
+    padding:8px 12px;
+}
+
+/* food cards grid */
+.appetizer-items,
+.salad-bar{
+    grid-template-columns:1fr 1fr;
+    /* gap:1vw; */
+}
+
+.food-cards{
+    width:90%;
+    height:vh;
+    margin:auto;
+}
+
+.food-cards img{
+    width:100%;
+    height:200px;
+}
+
+.apptzr-btn{
+    width:120px;
+}
+
+/* location text */
+.location{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+}
+
+/* TABLET */
+@media (min-width:577px) and (max-width:990px){
+
+/* header */
+.header{
+    height:auto;
+    padding:15px;
+}
+
+.logo img{
+    height:9vh;
+}
+
+/* search bar */
+.search-container{
+    width:80%;
+}
+
+/* discount banner */
+.discount-banner{
+    width:80%;
+}
+
+/* menu navbar */
+.menu-scroll a{
+    font-size:14px;
+    padding:8px 12px;
+}
+
+/* popular items */
+.famous-items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center; 
+    gap:25px;
+}
+
+.food-card{
+    flex:1 1 45%;
+    max-width:45%;
+}
+
+.food-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+/* banners */
+.banner img,
+#salad-bar-banner,
+#traditional-bar-banner{
+    width:80%;
+    height:auto;
+}
+
+/* appetizer grid */
+.appetizer-items{
+    grid-template-columns:22vw 22vw;
+    justify-items:center;
+    gap:25px;
+}
+
+/* salad / all food sections */
+.salad-bar{
+    grid-template-columns:22vw 22vw;
+    justify-items:center;
+    gap:25px;
+}
+
+/* food cards */
+.food-cards{
+    width:100%;
+    max-width:300px;
+    height:auto;
+}
+
+.food-cards img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* button */
+.apptzr-btn{
+    width:130px;
+    height:40px;
+}
+
+/* location text */
+.location{
+    padding-left:10vw;
+    padding-right:10vw;
+}
+
+}
+
+@media (min-width:993px) and (max-width:1200px){
+
+.appetizer-items,
+.salad-bar{
+    grid-template-columns:22vw 22vw 22vw;
+}
+
+.food-cards{
+    width:100%;
+    height: 55vh;
+}
+
+.food-cards img{
+    width:100%;
+}
+
+.food-card{
+    width:22vw;
+    
+}
+
+.banner img,
+#salad-bar-banner,
+#traditional-bar-banner{
+    width:75%;
+}
+
+}

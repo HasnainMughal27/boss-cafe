@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responssive.css">
+</head>
+
+<body>
+    <section class="exrtra-sec">
+        <h5>All Over Korangi – DC Only Rs. 100</h5>
+    </section>
+    <section class="header">
+        <header>
+            <div class="header-items">
+                <div class="ph-no">
+                    <button type="button" class="btn btn-secondary"><img src="incoming-call_8867636.png"
+                            alt="phone">012345678911</button>
+                </div>
+                <div class="logo">
+                    <img src="logo.jpg" alt="logo">
+                </div>
+                <div class="cart">
+                    <button type="button" class="btn btn-primary position-relative cart-btn">
+                        <img src="shopping-cart_12317487.png" alt="">
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section class="background">
+        <div class="bg">
+            <img src="background.jpg" alt="bg-img">
+        </div>
+    </section>
+    <section id="menuNavSection">
+
+        <div class="menu-wrapper">
+
+            <button class="nav-arrow left" onclick="scrollMenu(-200)">
+                ❮
+            </button>
+
+            <div class="menu-scroll" id="menuScroll">
+
+                <a href="#appetizer">Appetizer</a>
+                <a href="#salad">Salad Bar</a>
+                <a href="#traditional">Traditional Food</a>
+                <a href="#karhayi">Karhai</a>
+                <a href="#chinese">Chinese</a>
+                <a href="#specialities">Our Specialities</a>
+                <a href="#bbq">BBQ</a>
+                <a href="#pasta">Pasta</a>
+                <a href="#burger">Burger</a>
+                <a href="#sandwich">Sandwich</a>
+                <a href="#steak">Steak</a>
+                <a href="#naans">naans</a>
+                <a href="#beverages">Beverages</a>
+                <a href="#tea">Tea Time Delights</a>
+                <a href="#dessert">Desserts</a>
+
+            </div>
+
+            <button class="nav-arrow right" onclick="scrollMenu(200)">
+                ❯
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="main">
+        <main>
+            <div class="search-bar">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for ">
+                </div>
+            </div>
+            <div class="sale-bar">
+                <div class="discount-banner">
+
+                    <div class="discount-left">
+                        <span class="flat">Flat</span>
+
+                        <span class="discount-circle">20</span>
+
+                        <span class="percent">% Off</span>
+                    </div>
+
+                    <div class="discount-text">
+                        Upto To 20 % Discount
+                    </div>
+
+                </div>
+            </div>
+            <div class="container mt-4">
+
+                <h5 class="fw-bold">🔥 Popular Items</h5>
+                <p class="text-muted small">Most ordered right now</p>
+
+                <div class="famous-items">
+
+                    <!-- Card 1 -->
+                    <div class="col-md-3">
+                        <div class="food-card">
+                            <img src="dal-makhni2.jpg" class="img-fluid">
+
+                            <div class="food-title">
+                                Indian Butter Chicken
+                            </div>
+
+                            <div class="food-price">
+                                From <del>Rs. 949</del> Rs. 759
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-3">
+                        <div class="food-card">
+                            <img src="tikka2.jpg" class="img-fluid">
+
+                            <div class="food-title">
+                                Chicken Tikka Masala
+                            </div>
+
+                            <div class="food-price">
+                                From <del>Rs. 799</del> Rs. 639
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-3">
+                        <div class="food-card">
+                            <img src="white-malayi2.jpg" class="img-fluid">
+
+                            <div class="food-title">
+                                Paneer Reshmi Handi
+                            </div>
+
+                            <div class="food-price">
+                                From <del>Rs. 999</del> Rs. 799
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-md-3">
+                        <div class="food-card">
+                            <img src="dal2.jpg" class="img-fluid">
+
+                            <div class="food-title">
+                                Makhni Handi
+                            </div>
+
+                            <div class="food-price">
+                                From Rs. 1149
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="appetizer" id="appetizer">
+                <div class="banner">
+                    <img src="appetizer.jpg" alt="">
+                </div>
+                <div class="appetizer-items">
+                    <div class="food-cards">
+                        <img src="nuggets.jpg" alt="">
+                        <h6>Chicken Nuggets 5 pices</h6>
+                        <p>Crispy, bite-sized chicken, fried or baked 250-350kcal</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="kali-chicken.jpg" alt="">
+                        <h6>Wins 5 pices</h6>
+                        <p>Crispy chicken wings, served in a delicious sauce and fries</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="tali-vi-mirche.jpg" alt="">
+                        <h6>Peri Bites</h6>
+                        <p>Stuffed with cheese and fried to perfection. Serves with sauce and fries.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="daal6.jpg" alt="">
+                        <h6>Hot Sure Soup</h6>
+                        <p>A zesty and spicy soup with perfect balance of flavors (150-200 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="soop.jpg" alt="">
+                        <h6>Chicken Corn Soup</h6>
+                        <p>A warm and comforting chicken soup with corn kernels( 180-220 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="loaded-frise.jpg" alt="">
+                        <h6>Loaded Fries Large</h6>
+                        <p>A larger portion of fries loaded with cheese, sauces, and toppings(900-1,000 kcal per
+                            serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="chicken-frise.jpg" alt="">
+                        <h6>Dhaka Chicken</h6>
+                        <p>Crispy, bite-sized chicken, fried or baked 250-350kcal</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo2.jpg" alt="">
+                        <h6>Beef Roll</h6>
+                        <p>Tender beef wrapped in a soft roll with flavorful spices(250-300 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo2.jpg" alt="">
+                        <h6>Chicken Roll</h6>
+                        <p>A classic chicken roll with tender chicken and savory fillings (220-270 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo2.jpg" alt="">
+                        <h6>Dynamite Chicken 8 Pcs</h6>
+                        <p>Spicy and crispy chicken bites with a bold flavor punch (450-500 kcal per serving )</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo2.jpg" alt="">
+                        <h6>Fries</h6>
+                        <p>Crispy fries served plain or with a flavorful masala.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="salad" id="salad">
+                <img src="salad-bar.jpg" alt="" id="salad-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="salad.jpg" alt="">
+                        <h6>Fresh Green Salad</h6>
+                        <p>vibrant mix of crisp greens and fresh veggies for a healthy delight (50-80 kcal serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="custud.jpg" alt="">
+                        <h6>Hummus</h6>
+                        <p>Smooth and creamy chickpea dip (160-200 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="dahi.jpg" alt="">
+                        <h6>Raita</h6>
+                        <p>Cool and refreshing yogurt dip with a hint of spice (50-70 kcal per serving)</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="traditional-food" id="traditional">
+                <img src="traditional.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="daal-makhni.jpg" alt="">
+                        <h6>Mix Vegetable</h6>
+                        <p>A flavorful blend of sauteed seasonal veggies with spices</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Prawn Masala Handi</h6>
+                        <p>Juicy prawns cooked in spicy, aromatic masala</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="daal.jpg" alt="">
+                        <h6>Indian Butter Chicken</h6>
+                        <p>Creamy, Rich Chicken Curry With Bold Spices.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="tikka2.jpg" alt="">
+                        <h6>Chicken Tikka Masala</h6>
+                        <p>Grilled Chicken In A Flavorful Tomato-Based Curry.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="white-malayi2.jpg" alt="">
+                        <h6>Paneer Reshmi Handi</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="daal.jpg" alt="">
+                        <h6>Makhni Handi</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="karhayi">
+                <img src="karhayi.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Mix Vegetable</h6>
+                        <p>A flavorful blend of sauteed seasonal veggies with spices</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Chicken Peshawari Karahi</h6>
+                        <p>Tender chicken cooked in aromatic tomato based gravy with peshawari</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Mutton Shahi Karahi</h6>
+                        <p>Tender meat cooked in rich spices for a royal taste</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Chicken White Karahi</h6>
+                        <p>Creamy, flavorful chicken cooked with yogurt, cream, and spices.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Boss Special Chicken Karahi</h6>
+                        <p>Juicy chicken in a rich, spiced gravy</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Chicken Shahi Karahi</h6>
+                        <p>Tender meat cooked in rich spices for a royal taste.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Mutton Peshawari Karahi</h6>
+                        <p>Tender mutton cooked in aromatic tomato based gravy with peshawari spices</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="chinese">
+                <img src="chinese.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="rice.jpg" alt="">
+                        <h6>Chicken Fried Rice</h6>
+                        <p>Fluffy rice stir-fried with tender chicken and veggies.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="white-rice.jpg" alt="">
+                        <h6>Beef Chilli Dry with Rice</h6>
+                        <p>Spicy and savory beef stir-fry served with rice</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="white-rice2.jpg" alt="">
+                        <h6>Chicken Chilli Dry with Rice</h6>
+                        <p>A bold chicken stir-fry paired with steamed rice.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="white-rice3.jpg" alt="">
+                        <h6>Chicken Chilli Dry with Rice</h6>
+                        <p>A bold chicken stir-fry paired with steamed rice.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Chicken Chilli White with Rice</h6>
+                        <p>A creamy and mildly spiced chicken dish with rice.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="noodles.jpg" alt="">
+                        <h6>Ever Green Chowmein</h6>
+                        <p>Classic stir-fried noodles with veggies and savory flavors</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="white-rice4.jpg" alt="">
+                        <h6>Schezwan Chicken With Rice</h6>
+                        <p>Fiery and flavorful chicken served with aromatic rice</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="specialities">
+                <img src="specialities.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="jheenga.jpg" alt="">
+                        <h6>Portuguese Prawns</h6>
+                        <p>8 Pcs with head shell on</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="plater.jpg" alt="">
+                        <h6>Sizzling BBQ Spread</h6>
+                        <p>Chicken Bihari
+                            1 beef kabab
+                            1 chicken kabab
+                            2 Zambian steaks
+                            Portugese chicken (half) served with Fries & Rice 3,750-4,350 kcal</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="tandoori.jpg" alt="">
+                        <h6>Portuguese Chicken with Rice and Chips</h6>
+                        <p>spiced, grilled chicken served with sides.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="plater2.jpg" alt="">
+                        <h6>Boss Special Platter</h6>
+                        <p>4 Zambian steaks
+                            Half Portuguese chicken
+                            8 Portuguese prawns
+                            Yellow rice
+                            Spinach
+                            Fries
+                            Creamy mashed potatoes.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Zambian Steak</h6>
+                        <p>A juicy and tender Zambian steak, served with your choice of mashed potatoes or fries, and
+                            topped with a flavorful sauce 500-600 kcal per serving</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="bbq">
+                <img src="bbq.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="malayibooti.jpg" alt="">
+                        <h6>Chicken Malai Boti</h6>
+                        <p>Creamy, soft chicken bites marinated in mild spices and cream</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="chicken-kabab.jpg" alt="">
+                        <h6>Chicken Cheese Kabab</h6>
+                        <p>Juicy chicken kababs stuffed with melted cheese, grilled to perfection</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="bihari-booti.jpg" alt="">
+                        <h6>Chicken Bihari Boti</h6>
+                        <p>Juicy and spiced boneless chicken kababs with a smoky finish</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="beef-bihari-booti.jpg" alt="">
+                        <h6>Beef Bihari Boti</h6>
+                        <p>Rich, aromatic beef kababs packed with bold flavors</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="tandoori-boti.jpg" alt="">
+                        <h6>Chicken Tandoori Boti</h6>
+                        <p>Classic smoky tandoori chicken with bold spices</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="afgani-booti.jpg" alt="">
+                        <h6>Beef Afghani Boti</h6>
+                        <p>Tender beef skewers infused with creamy afghani spices</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="beef-kabab.jpg" alt="">
+                        <h6>Beef Kabab</h6>
+                        <p>Rich, aromatic beef kababs packed with bold flavors.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="chicken-kabab.jpg" alt="">
+                        <h6>Chicken Kabab</h6>
+                        <p>Juicy and spiced chicken kababs with a smoky finish.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="pasta">
+                <img src="pasta.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="alfredo-pasta.jpg" alt="">
+                        <h6>Alfredo Pasta</h6>
+                        <p>Creamy, cheesy alfredo sauce</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="spicy-cream-pasta.jpg" alt="">
+                        <h6>Spicy Cream Fusion Pasta</h6>
+                        <p>A fiery twist on the classic, with extra spice and creamy goodness with tender chicken fillet
+                        </p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="burger">
+                <img src="burger.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="mashroom-burger.jpg" alt="">
+                        <h6>Mushroom Chicken Burger</h6>
+                        <p>Crispy chicken fillet topped with creamy mushroom sauce.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="classic-beef-burger.jpg" alt="">
+                        <h6>Classic Beef Burger</h6>
+                        <p>Juicy beefy patty with fresh toppings and special sauce.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="crispy-chicken-burger.jpg" alt="">
+                        <h6>Crispy Chicken Crunch Burger</h6>
+                        <p>Golden-fried chicken fillet with a crunchy coating</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="sandwich">
+                <img src="sandwich-banner.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="grilled-chicken-sandwich.jpg" alt="">
+                        <h6>Grilled Chicken Sandwich</h6>
+                        <p>Tender chicken with fresh veggies and sauce, toasted to perfection.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="toasted-steak-sandwich.jpg" alt="">
+                        <h6>Toasted Steak Sandwich</h6>
+                        <p>Juicy steak slices with melted cheese, served in a crispy toasted bun</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="steak">
+                <img src="steaks-banner.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Bossman Cut Beef</h6>
+                        <p>The Bossman Cut brings the heat, the juice, and all the flavor. Bite like a boss.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="mushroom-steak.jpg" alt="">
+                        <h6>Mushroom Delight Steak</h6>
+                        <p>Juicy steak topped with creamy mushroom sauce.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="tarragon-steak.jpg" alt="">
+                        <h6>Tarragon Herb Steak</h6>
+                        <p>Tender steak cooked with a rich tarragon-infused creamy sauce</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="deckhouse-steak.jpg" alt="">
+                        <h6>Deckhouse Steak</h6>
+                        <p>A premium cut steak, grilled and served with a signature sauce.</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="african-steak.jpg" alt="">
+                        <h6>African Spice Steak</h6>
+                        <p>Bold flavors with African-inspired seasoning, grilled to perfection</p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="zambian-steak.jpg" alt="">
+                        <h6>Zambian Steak Beef</h6>
+                        <p>A juicy and tender Zambian steak, served with your choice of mashed potatoes or fries, and
+                            topped with a flavorful sauce that embodies bold Zambian spices. (500-600 kcal per serving)
+                        </p>
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="naans">
+                <img src="naans-banner.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="plain-naan.jpg" alt="">
+                        <h6>Plain Naan</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Whole Naan</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="roghani-naan.jpg" alt="">
+                        <h6>Special Rogni Naan</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="logo.jpg" alt="">
+                        <h6>Garlic Naan</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="rumali-chapati.jpg" alt="">
+                        <h6>Rumali Chapati</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="karhayi-food" id="beverages">
+                <img src="beverages-banner.jpg" alt="" id="traditional-bar-banner">
+                <div class="salad-bar">
+                    <div class="food-cards">
+                        <img src="soft-drink.jpg" alt="">
+                        <h6>Soft Drink</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                    <div class="food-cards">
+                        <img src="water.jpg" alt="">
+                        <h6>Water</h6>
+
+                        <div class="apptzr-extra">
+                            <div class="apptzr-discount">
+                                <p>From Rs. 649 To Rs.519</p>
+                            </div>
+                            <button class="apptzr-btn"><a href="#">Add</a></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <section class="karhayi-food" id="tea">
+                    <img src="tea-time-banner.jpg" alt="" id="traditional-bar-banner">
+                    <div class="salad-bar">
+                        <div class="food-cards">
+                            <img src="tea.jpg" alt="">
+                            <h6>Tea</h6>
+
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                        <div class="food-cards">
+                            <img src="logo.jpg" alt="">
+                            <h6>Green Tea</h6>
+
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <section class="karhayi-food" id="dessert">
+                    <img src="desserts-banner.jpg" alt="" id="traditional-bar-banner">
+                    <div class="salad-bar">
+                        <div class="food-cards">
+                            <img src="lotus.jpg" alt="">
+                            <h6>Lotus Cheesecake</h6>
+                            <p>Per Slice</p>
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                        <div class="food-cards">
+                            <img src="pista.jpg" alt="">
+                            <h6>Pistachio Tiramisu</h6>
+                            <p>Per Slice</p>
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                        <div class="food-cards">
+                            <img src="choco-cake.jpg" alt="">
+                            <h6>Chocolate Cake</h6>
+                            <p>Per Slice</p>
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                        <div class="food-cards">
+                            <img src="vanilla-icecream.jpg" alt="">
+                            <h6>Fudge Brownie With Vanilla Icecream</h6>
+                            <p>Per Slice</p>
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                        <div class="food-cards">
+                            <img src="brownies.jpg" alt="">
+                            <h6>Fudge Brownie</h6>
+                            <p>Per Slice</p>
+                            <div class="apptzr-extra">
+                                <div class="apptzr-discount">
+                                    <p>From Rs. 649 To Rs.519</p>
+                                </div>
+                                <button class="apptzr-btn"><a href="#">Add</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <section class="location">
+                    <div class="text">
+                        <h1>Get the Best of Boss Cafe Delivered to Your Door in Karachi</h1>
+                        <p>Explore the amazing food variety of Boss Cafe in Karachi. Find updated prices & special
+                            deals. Order Tasty Paneer Reshmi Handi, Memoni Khausa, Indian Butter Chicken & more. We
+                            strive to bring the best experience of online ordering and delivery to our customers in
+                            Karachi. If you are looking for delicious food and online deals with home delivery in
+                            Karachi then look no further, order now your favorites from Boss Cafe.</p>
+                    </div>
+                </section>
+        </main>
+    </section>
+    <section class="footer" id="footer">
+        <footer class="footer-section">
+            <div class="container text-center">
+
+                <!-- Social Icons -->
+                <div class="social-icons mb-3">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <span>Powered by <a href="#">Indolj</a></span>
+                    <span class="divider">|</span>
+                    <a href="#">Privacy Policy</a>
+                    <span class="divider">|</span>
+                    <a href="#">Faqs</a>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</html>
