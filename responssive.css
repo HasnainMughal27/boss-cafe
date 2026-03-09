@@ -68,7 +68,10 @@
     width:100%;
     height: 60vh;
 }
-
+.food-card p{
+    font-size: 10px;
+    font-weight: normal;
+}
 .food-cards img{
     width:100%;
     height:200px;
@@ -140,8 +143,9 @@
 /* food cards grid */
 .appetizer-items,
 .salad-bar{
-    grid-template-columns:1fr 1fr;
-    /* gap:1vw; */
+    /* grid-template-columns:1fr 1fr; */
+    gap:1vw;
+    grid-column-gap: -2vw;
 }
 
 .food-cards{
