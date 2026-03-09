@@ -127,8 +127,7 @@
 }
 
 .food-card{
-    width:90%;
-    height: auto;
+    width:100%;
 }
 
 .food-card img{
@@ -297,4 +296,5 @@
 }
 
 }
+
 
