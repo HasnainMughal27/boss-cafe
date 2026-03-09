@@ -1,9 +1,12 @@
 /* MOBILE */
-@media (max-width:480px){
+@media (max-width:420px){
 
 /* header */
 .logo img{
     height:7vh;
+}
+.header-items{
+    display: flex;
 }
 
 /* search bar */
@@ -48,13 +51,11 @@
 /* appetizer grid */
 .appetizer-items{
     grid-template-columns:1fr 1fr;
-    gap:20px;
 }
 
 /* other food sections */
 .salad-bar{
     grid-template-columns:1fr 1fr;
-    gap:20px;
 }
 
 /* food cards */
