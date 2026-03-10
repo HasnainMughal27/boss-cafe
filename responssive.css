@@ -1,300 +1,208 @@
-/* MOBILE */
-@media (max-width:420px){
-
-/* header */
-.logo img{
-    height:7vh;
-}
-.header-items{
-    display: flex;
-}
-
-/* search bar */
-.search-container{
-    width:95%;
-}
-
-/* menu */
-.menu-scroll a{
-    font-size:12px;
-    padding:6px 10px;
-}
-
-/* famous items */
-.famous-items{
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    align-items:center;
-    /* gap:20px; */
-    grid-column-gap: -1vw;
-}
-
-.food-card{
-    width:95%;
-    max-width:350px;
-}
-
-.food-card img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
-}
-
-/* banners */
-.banner img,
-#salad-bar-banner,
-#traditional-bar-banner{
-    width:95%;
+img{
+    max-width:100%;
     height:auto;
 }
 
-/* appetizer grid */
-.appetizer-items{
-    grid-template-columns:1fr 1fr;
-}
-
-/* other food sections */
-.salad-bar{
-    grid-template-columns:1fr 1fr;
-}
-
-/* food cards */
-.food-cards{
-    width:95%;
-    max-width:320px;
-    margin:auto;
-}
+/* cards */
 .food-cards{
     width:100%;
-    height: 60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:10px;
+    box-sizing:border-box;
+    height:100%;
 }
-.food-card p{
-    font-size: 10px;
-    font-weight: normal;
-}
+
+/* card image */
 .food-cards img{
     width:100%;
     height:200px;
     object-fit:cover;
 }
 
-/* buttons */
+/* button always at bottom */
 .apptzr-btn{
-    width:120px;
-    height:38px;
+    margin-top:auto;
 }
 
-/* location text */
-.location{
-    padding-left:15px;
-    padding-right:15px;
-}
 
-}
 
 @media (max-width:576px){
 
-.logo img{
-    height:9vh;
-}
-
-.btn img{
-    width:4vw;
-    height:2vh;
-}
-
-.cart img{
-    width:4vw;
-}
-
-.search-container{
-    width:90%;
-}
-
-/* banner */
-.banner img,
-#salad-bar-banner,
-#traditional-bar-banner{
-    width:90%;
-    height:auto;
-}
-
-/* popular items */
-.famous-items{
-    flex-wrap: wrap;
+/* header */
+.header-items{
+    flex-direction:row;
     align-items:center;
-    gap:20px;
 }
 
-.food-card{
-    width:100%;
+.logo{
+    position:static;
+    transform:none;
 }
 
-.food-card img{
-    height:200px;
+.logo img{
+    height:60px;
 }
 
-/* menu scroll */
+/* buttons */
+#number-btn{
+    font-size:12px;
+    padding:5px 8px;
+}
+
+.cart-btn{
+    padding:6px;
+}
+
+/* menu */
+.menu-wrapper{
+    font-size:18px;
+}
+
 .menu-scroll a{
     font-size:13px;
-    padding:8px 12px;
+    padding:8px 10px;
 }
 
-/* food cards grid */
+/* search */
+.search-container{
+    width:90%;
+}
+
+/* discount */
+.discount-banner{
+    width:90%;
+    flex-direction:column;
+    text-align:center;
+}
+
+/* grid */
 .appetizer-items,
 .salad-bar{
-    /* grid-template-columns:1fr 1fr; */
-    gap:1vw;
-    grid-column-gap: -2vw;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
 }
 
-.food-cards{
-    width:90%;
-    height:vh;
-    margin:auto;
-}
-
+/* card image responsive */
 .food-cards img{
-    width:100%;
-    height:200px;
-}
-
-.apptzr-btn{
-    width:120px;
-}
-
-/* location text */
-.location{
-    padding-left:20px;
-    padding-right:20px;
-}
-
-}
-
-/* TABLET */
-@media (min-width:577px) and (max-width:990px){
-
-/* header */
-.header{
-    height:auto;
-    padding:15px;
-}
-
-.logo img{
-    height:9vh;
-}
-
-/* search bar */
-.search-container{
-    width:80%;
-}
-
-/* discount banner */
-.discount-banner{
-    width:80%;
-}
-
-/* menu navbar */
-.menu-scroll a{
-    font-size:14px;
-    padding:8px 12px;
-}
-
-/* popular items */
-.famous-items{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center; 
-    gap:25px;
-}
-
-.food-card{
-    flex:1 1 45%;
-    max-width:45%;
-}
-
-.food-card img{
-    width:100%;
-    height:230px;
-    object-fit:cover;
-}
-
-/* banners */
-.banner img,
-#salad-bar-banner,
-#traditional-bar-banner{
-    width:80%;
-    height:auto;
-}
-
-/* appetizer grid */
-.appetizer-items{
-    grid-template-columns:22vw 22vw;
-    justify-items:center;
-    gap:25px;
-}
-
-/* salad / all food sections */
-.salad-bar{
-    grid-template-columns:22vw 22vw;
-    justify-items:center;
-    gap:25px;
-}
-
-/* food cards */
-.food-cards{
-    width:100%;
-    max-width:300px;
-    height:auto;
-}
-
-.food-cards img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
+    height:140px;
 }
 
 /* button */
 .apptzr-btn{
-    width:130px;
-    height:40px;
+    width:100%;
+    height:38px;
 }
 
-/* location text */
-.location{
-    padding-left:10vw;
-    padding-right:10vw;
+/* footer */
+.footer-section{
+    font-size:18px;
+}
 }
 
-}
 
-@media (min-width:993px) and (max-width:1200px){
+@media (min-width:576px) and (max-width:768px){
 
 .appetizer-items,
 .salad-bar{
-    grid-template-columns:22vw 22vw 22vw;
-}
-
-.food-cards{
-    width:100%;
-    height: 55vh;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
 }
 
 .food-cards img{
-    width:100%;
+    height:160px;
+}
+.apptzr-btn{
+    width: 15vw;
+    height: 5vh;
+}
+.search-container{
+    width:85%;
 }
 
-.food-card{
-    width:22vw;
-    
+.discount-banner{
+    width:85%;
 }
 
-.banner img,
-#salad-bar-banner,
-#traditional-bar-banner{
-    width:75%;
+.logo img{
+    height:70px;
 }
-
 }
 
 
+@media (min-width:768px) and (max-width:992px){
+
+.appetizer-items,
+.salad-bar{
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+.apptzr-btn{
+    width: 15vw;
+    height: 5vh;
+}
+.food-cards img{
+    height:180px;
+}
+
+.search-container{
+    width:70%;
+}
+
+.discount-banner{
+    width:70%;
+}
+
+.logo img{
+    height:80px;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1200px){
+
+.appetizer-items,
+.salad-bar{
+    grid-template-columns:repeat(4,1fr);
+}
+.apptzr-btn{
+    width: 10vw;
+    height: 5vh;
+}
+.food-cards img{
+    height:200px;
+}
+
+.search-container{
+    width:65%;
+}
+
+.discount-banner{
+    width:65%;
+}
+}
+
+
+@media (min-width:1200px) and (max-width:1400){
+
+.appetizer-items,
+.salad-bar{
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+
+}
+
+.food-cards img{
+    height:220px;
+}
+
+.search-container{
+    width:60%;
+}
+
+.discount-banner{
+    width:60%;
+}
+}
